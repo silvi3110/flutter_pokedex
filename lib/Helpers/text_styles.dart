@@ -1,0 +1,60 @@
+import 'package:flutter/material.dart';
+import 'package:my_pokedex/Helpers/responsive_helper.dart';
+
+class AppTextStyle {
+  static TextStyle small = TextStyle(
+    fontSize: ResponsiveHelper.instance.fontSize - 4,
+    color: Colors.black,
+  );
+
+  static TextStyle regular = TextStyle(
+    fontSize: ResponsiveHelper.instance.fontSize,
+    color: Colors.black,
+  );
+
+  static TextStyle medium = TextStyle(
+    fontSize: ResponsiveHelper.instance.fontSize + 2,
+    color: Colors.black,
+  );
+
+  static TextStyle large = TextStyle(
+    fontSize: ResponsiveHelper.instance.fontSize + 4,
+    color: Colors.black,
+  );
+
+  static TextStyle extraLarge = TextStyle(
+    fontSize: ResponsiveHelper.instance.fontSize + 8,
+    color: Colors.black,
+  );
+
+  // =============================================
+
+  static TextStyle smallBold = TextStyle(
+    fontSize: ResponsiveHelper.instance.fontSize - 4,
+    color: Colors.black,
+    fontWeight: FontWeight.w900,
+  );
+  static TextStyle regularBold = TextStyle(
+    fontSize: ResponsiveHelper.instance.fontSize,
+    color: Colors.black,
+    fontWeight: FontWeight.w900,
+  );
+
+  static TextStyle mediumBold = TextStyle(
+    fontSize: ResponsiveHelper.instance.fontSize + 2,
+    color: Colors.black,
+    fontWeight: FontWeight.w900,
+  );
+
+  static TextStyle largeBold = TextStyle(
+    fontSize: ResponsiveHelper.instance.fontSize + 4,
+    color: Colors.black,
+    fontWeight: FontWeight.w900,
+  );
+
+  static TextStyle extraLargeBold = TextStyle(
+    fontSize: ResponsiveHelper.instance.fontSize + 8,
+    color: Colors.black,
+    fontWeight: FontWeight.w900,
+  );
+}
